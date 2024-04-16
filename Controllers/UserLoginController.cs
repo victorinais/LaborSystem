@@ -9,7 +9,7 @@ namespace LoginController.Controllers{
         public LoginController(BaseContext context){
             _context = context;
         }
-        public IActionResult Index()
+        public IActionResult SignIn()
         {
             return View();
         }
