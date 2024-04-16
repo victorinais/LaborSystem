@@ -1,3 +1,4 @@
+@model UserLogin;
 
 @* Titulo de la vista *@
 @{
@@ -21,56 +22,21 @@
                     <h1 class="fw-bold text-center">Crea tu cuenta</h1>
                     <p class="card-text text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lacus nunc, accumsan.</p>
                 </div>
-                <form asp-action="Create" method="post" onsubmit="return SavedAlert()">
+                <form asp-action="Create" method="post">
                     <div class="row d-flex align-content-center g-3 p-2">
                         <div class="my-2">
-                            <h3 class="fw-bold text-center">Información de la empresa</h3>
+                            <h3 class="fw-bold text-center">Login</h3>
                         </div>
                         <div class="col-md-6">
-                            <label for="InputNameCompany" class="form-label">Nombre</label>
-                            <input id="InputNameCompany" class="form-control" placeholder="Mi Empresa S.A.S" aria-label="Nombre" required>
+                            <label for="InputNameCompany" class="form-label">Usuario</label>
+                            <input asp-for="UserName" id="InputNameCompany" class="form-control" placeholder="Mi Empresa S.A.S" aria-label="Nombre" required>
                         </div>
                         <div class="col-md-6">
-                            <label for="InputLogoCompany" class="form-label">Logo</label>
-                            <input asp-for="" id="InputLogoCompany" class="form-control" placeholder="www.milogo.com" aria-label="Logo" required>
-                        </div>
-                        <div class="my-2">
-                            <h3 class="fw-bold text-center">Información de la oferta</h3>
-                        </div>
-                        <div class="col-md-6">
-                            <label for="InputOfferTitle" class="form-label">Oferta</label>
-                            <input asp-for="" id="InputOfferTitle" class="form-control" placeholder="Auxiliar de tesoreria" aria-label="Titulo oferta" required>
-                        </div>
-                        <div class="col-md-6">
-                            <label for="InputCountry" class="form-label">Ciudad</label>
-                            <input asp-for="Country" id="InputCountry" class="form-control" placeholder="Ciudad" aria-label="Ciudad" required>
-                        </div>
-                        <div class="col-md-6">
-                            <label for="InputSalary" class="form-label">Salario</label>
-                            <input asp-for="Salary" id="InputSalary" class="form-control" placeholder="1000000" aria-label="1000000" required>
-                        </div>
-                        <div class="col-md-6">
-                            <label for="InputPositions" class="form-label">Vacantes disponibles</label>
-                            <input asp-for="Positions" id="InputPositions" class="form-control" placeholder="Vacantes disponibles" aria-label="1" required>
-                        </div>
-                        <div class="col-md-6">
-                            <label for="InputLanguages" class="form-label">Lenguajes</label>
-                            <input asp-for="Languages" id="InputLanguages" class="form-control" placeholder="Español" aria-label="Lenguaje" required>
-                        </div>
-                        <div class="col-md-6">
-                            <label for="InputStatus" class="form-label">Estado de la oferta</label>
-                            <select asp-for="Status" class="form-select" id="InputStatus" aria-label="Selecciona">
-                                <option value="">Selecciona una opción</option>
-                                <option value="Disponible">Disponible</option>
-                                <option value="No Disponible">No Disponible</option>
-                            </select>
-                        </div>
-                        <div class="col-md-12">
-                            <label for="inputDescription" class="form-label">Descripción</label>
-                            <textarea asp-for="Description" id="inputDescription" class="form-control from-text-area" placeholder="Escribe algo sobre la oferta.." aria-label="Descripción" required></textarea>
+                            <label for="InputLogoCompany" class="form-label">Contraseña</label>
+                            <input asp-for="Password" id="InputLogoCompany" class="form-control" placeholder="www.milogo.com" aria-label="Logo" required>
                         </div>
                         <a class="d-grid gap-2 col-6 mx-auto">
-                            <button type="submit" class="btn btn-success fw-bold d-gap">Crear Oferta</button>
+                            <button type="submit" class="btn btn-success fw-bold d-gap">Ingresar</button>
                         </a>
                     </div>
                 </form>
