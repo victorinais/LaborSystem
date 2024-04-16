@@ -5,34 +5,41 @@
 <div class="container">
     <div class="row">
         <div class="col-md-3">
-            <div class="card my-3">
+            <div class="card my-2">
                 <div class="body-card my-3">
                     <div class="d-flex flex-column">
                         <div class="d-grid col-10 mx-auto mb-2">
-                            <a class="btn btn-success btn-md" asp-controller="Home" asp-action="Index">Home</a>
+                            <a class="btn btn-success btn-md mb-2" asp-controller="Home" asp-action="Index">Home</a>
+                            <a class="btn btn-primary btn-md mb-2" asp-controller="Employees" asp-action="Index">Listado de Empleados</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="col-md-9">
-
+            <div class="card my-2">
+                
+                <div class="body-card my-3">
+                    <div class="table-responsive mx-2">
+                        <table class="table table-bordered border-black">
+                            <tr>
+                                <th>Id</th>
+                                <th>Nombres</th>
+                                <th>Apellidos</th>
+                            </tr>
+                            @foreach (var Item in Model)
+                            {
+                                <tr>
+                                    <td>@Item.Id</td>
+                                    <td>@Item.Names</td>
+                                    <td>@Item.LastNames</td>
+                                </tr>
+                            }
+                        </table>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
 
-<!-- <table>
-    <tr>
-        <td>Id</td>
-        <td>Names</td>
-        <td>LastNames</td>
-    </tr>
-    @foreach( var Item in Model){
-        <tr>
-            <td>@Item.Id</td>
-            <td>@Item.Names</td>
-            <td>@Item.LastNames</td>
-        </tr>
-    }
-</table>
- -->
