@@ -20,3 +20,84 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+/* Clases para las imagenes */
+.Img-Logo {
+  width: 3rem;
+  height: 3rem;
+}
+
+.Img-Logo-Details {
+  width: 8rem;
+  height: 8rem;
+}
+
+.img-index-home {
+  width: 100%;
+  height: 100%;
+  border-radius: 15PX;
+  box-shadow: #00000030 0px 4px 8px ;
+}
+
+/* Clases para las cards */
+
+.card {
+  border-radius: 10px;
+  background-color: #f7f7f7;
+  border: none;
+  box-shadow: #00000030 0px 4px 8px ;
+}
+
+.card-service{
+  width: 18rem;
+}
+
+/* Clases para los botones*/
+
+.btn {
+  border-radius: 3rem;
+  margin: 5px;
+}
+
+.icon-cards {
+  width: 7rem;
+  height: 7rem;
+  fill: #c026d3;
+}
+
+.OptionCrud {
+  cursor: pointer;
+  transition: ease 0.5s;
+  width: 2em;
+  height: 2em;
+  filter:grayscale();
+}
+
+.OptionCrud:hover {
+  transform: scale(1.08); 
+  transition: transform 0.2s ease, background-color 0.5s ease;
+  filter: none;
+}
+
+.Etiquetas {
+  background-color: #258cfb;
+}
+
+/* Clases para los formularios */
+
+.form-control {
+  border-radius: 25px;
+}
+
+.from-text-area {
+  height: 100px;
+}
+
+.form-select {
+  border-radius: 25px;
+}
+
+/* Clases para los links */
+a {
+  text-decoration: none;
+}

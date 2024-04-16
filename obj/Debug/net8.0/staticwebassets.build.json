@@ -1,6 +1,10 @@
 {
   "Version": 1,
+<<<<<<< HEAD
+  "Hash": "IR17yBvk4J66oYasYkhYeG5R7Q/SFx3a15i7IE8xmoY=",
+=======
   "Hash": "CEU94TH46gIH1dPpkIpwLx74iysRNxWRfALdhxFuL/0=",
+>>>>>>> ba651dd44f29284cf0d4b774713388182bfb4b65
   "Source": "LaborSystem",
   "BasePath": "_content/LaborSystem",
   "Mode": "Default",
@@ -8,19 +12,30 @@
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
-      "Name": "LaborSystem/wwwroot",
+      "Name": "LaborSystem\\wwwroot",
       "Source": "LaborSystem",
+<<<<<<< HEAD
+      "ContentRoot": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\",
+=======
       "ContentRoot": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/",
+>>>>>>> ba651dd44f29284cf0d4b774713388182bfb4b65
       "BasePath": "_content/LaborSystem",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\obj\\Debug\\net8.0\\scopedcss\\bundle\\LaborSystem.styles.css",
+      "SourceId": "LaborSystem",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+=======
       "Identity": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/obj/Debug/net8.0/scopedcss/bundle/LaborSystem.styles.css",
       "SourceId": "LaborSystem",
       "SourceType": "Computed",
       "ContentRoot": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/obj/Debug/net8.0/scopedcss/bundle/",
+>>>>>>> ba651dd44f29284cf0d4b774713388182bfb4b65
       "BasePath": "_content/LaborSystem",
       "RelativePath": "LaborSystem.styles.css",
       "AssetKind": "All",
@@ -33,6 +48,15 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
+      "OriginalItemSpec": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\obj\\Debug\\net8.0\\scopedcss\\bundle\\LaborSystem.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\LaborSystem.bundle.scp.css",
+      "SourceId": "LaborSystem",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+=======
       "OriginalItemSpec": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/obj/Debug/net8.0/scopedcss/bundle/LaborSystem.styles.css"
     },
     {
@@ -40,6 +64,7 @@
       "SourceId": "LaborSystem",
       "SourceType": "Computed",
       "ContentRoot": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/obj/Debug/net8.0/scopedcss/projectbundle/",
+>>>>>>> ba651dd44f29284cf0d4b774713388182bfb4b65
       "BasePath": "_content/LaborSystem",
       "RelativePath": "LaborSystem.bundle.scp.css",
       "AssetKind": "All",
@@ -52,6 +77,15 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
+      "OriginalItemSpec": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\LaborSystem.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\css\\site.css",
+      "SourceId": "LaborSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\",
+=======
       "OriginalItemSpec": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/obj/Debug/net8.0/scopedcss/projectbundle/LaborSystem.bundle.scp.css"
     },
     {
@@ -59,6 +93,7 @@
       "SourceId": "LaborSystem",
       "SourceType": "Discovered",
       "ContentRoot": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/",
+>>>>>>> ba651dd44f29284cf0d4b774713388182bfb4b65
       "BasePath": "_content/LaborSystem",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -71,13 +106,20 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/site.css"
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\favicon.ico",
+      "SourceId": "LaborSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\",
+=======
       "Identity": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/favicon.ico",
       "SourceId": "LaborSystem",
       "SourceType": "Discovered",
       "ContentRoot": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/",
+>>>>>>> ba651dd44f29284cf0d4b774713388182bfb4b65
       "BasePath": "_content/LaborSystem",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -90,13 +132,20 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/favicon.ico"
+      "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\js\\site.js",
+      "SourceId": "LaborSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\",
+=======
       "Identity": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/js/site.js",
       "SourceId": "LaborSystem",
       "SourceType": "Discovered",
       "ContentRoot": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/",
+>>>>>>> ba651dd44f29284cf0d4b774713388182bfb4b65
       "BasePath": "_content/LaborSystem",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -109,13 +158,20 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/js/site.js"
+      "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "SourceId": "LaborSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\",
+=======
       "Identity": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
       "SourceId": "LaborSystem",
       "SourceType": "Discovered",
       "ContentRoot": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/",
+>>>>>>> ba651dd44f29284cf0d4b774713388182bfb4b65
       "BasePath": "_content/LaborSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -128,13 +184,20 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "SourceId": "LaborSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\",
+=======
       "Identity": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "SourceId": "LaborSystem",
       "SourceType": "Discovered",
       "ContentRoot": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/",
+>>>>>>> ba651dd44f29284cf0d4b774713388182bfb4b65
       "BasePath": "_content/LaborSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -147,13 +210,20 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "SourceId": "LaborSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\",
+=======
       "Identity": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "SourceId": "LaborSystem",
       "SourceType": "Discovered",
       "ContentRoot": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/",
+>>>>>>> ba651dd44f29284cf0d4b774713388182bfb4b65
       "BasePath": "_content/LaborSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -166,13 +236,20 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "SourceId": "LaborSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\",
+=======
       "Identity": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "SourceId": "LaborSystem",
       "SourceType": "Discovered",
       "ContentRoot": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/",
+>>>>>>> ba651dd44f29284cf0d4b774713388182bfb4b65
       "BasePath": "_content/LaborSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -185,13 +262,20 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "SourceId": "LaborSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\",
+=======
       "Identity": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "SourceId": "LaborSystem",
       "SourceType": "Discovered",
       "ContentRoot": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/",
+>>>>>>> ba651dd44f29284cf0d4b774713388182bfb4b65
       "BasePath": "_content/LaborSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -204,13 +288,20 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "SourceId": "LaborSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\",
+=======
       "Identity": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "SourceId": "LaborSystem",
       "SourceType": "Discovered",
       "ContentRoot": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/",
+>>>>>>> ba651dd44f29284cf0d4b774713388182bfb4b65
       "BasePath": "_content/LaborSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -223,13 +314,20 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "SourceId": "LaborSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\",
+=======
       "Identity": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "SourceId": "LaborSystem",
       "SourceType": "Discovered",
       "ContentRoot": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/",
+>>>>>>> ba651dd44f29284cf0d4b774713388182bfb4b65
       "BasePath": "_content/LaborSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -242,13 +340,20 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "SourceId": "LaborSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\",
+=======
       "Identity": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "SourceId": "LaborSystem",
       "SourceType": "Discovered",
       "ContentRoot": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/",
+>>>>>>> ba651dd44f29284cf0d4b774713388182bfb4b65
       "BasePath": "_content/LaborSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -261,13 +366,20 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "SourceId": "LaborSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\",
+=======
       "Identity": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
       "SourceId": "LaborSystem",
       "SourceType": "Discovered",
       "ContentRoot": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/",
+>>>>>>> ba651dd44f29284cf0d4b774713388182bfb4b65
       "BasePath": "_content/LaborSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -280,13 +392,20 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "SourceId": "LaborSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\",
+=======
       "Identity": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "SourceId": "LaborSystem",
       "SourceType": "Discovered",
       "ContentRoot": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/",
+>>>>>>> ba651dd44f29284cf0d4b774713388182bfb4b65
       "BasePath": "_content/LaborSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -299,13 +418,20 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "SourceId": "LaborSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\",
+=======
       "Identity": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "SourceId": "LaborSystem",
       "SourceType": "Discovered",
       "ContentRoot": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/",
+>>>>>>> ba651dd44f29284cf0d4b774713388182bfb4b65
       "BasePath": "_content/LaborSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -318,13 +444,20 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "SourceId": "LaborSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\",
+=======
       "Identity": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "SourceId": "LaborSystem",
       "SourceType": "Discovered",
       "ContentRoot": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/",
+>>>>>>> ba651dd44f29284cf0d4b774713388182bfb4b65
       "BasePath": "_content/LaborSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -337,13 +470,20 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "SourceId": "LaborSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\",
+=======
       "Identity": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "SourceId": "LaborSystem",
       "SourceType": "Discovered",
       "ContentRoot": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/",
+>>>>>>> ba651dd44f29284cf0d4b774713388182bfb4b65
       "BasePath": "_content/LaborSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -356,13 +496,20 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "SourceId": "LaborSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\",
+=======
       "Identity": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "SourceId": "LaborSystem",
       "SourceType": "Discovered",
       "ContentRoot": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/",
+>>>>>>> ba651dd44f29284cf0d4b774713388182bfb4b65
       "BasePath": "_content/LaborSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -375,13 +522,20 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "SourceId": "LaborSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\",
+=======
       "Identity": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "SourceId": "LaborSystem",
       "SourceType": "Discovered",
       "ContentRoot": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/",
+>>>>>>> ba651dd44f29284cf0d4b774713388182bfb4b65
       "BasePath": "_content/LaborSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -394,13 +548,20 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "SourceId": "LaborSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\",
+=======
       "Identity": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "SourceId": "LaborSystem",
       "SourceType": "Discovered",
       "ContentRoot": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/",
+>>>>>>> ba651dd44f29284cf0d4b774713388182bfb4b65
       "BasePath": "_content/LaborSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -413,13 +574,20 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "SourceId": "LaborSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\",
+=======
       "Identity": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
       "SourceId": "LaborSystem",
       "SourceType": "Discovered",
       "ContentRoot": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/",
+>>>>>>> ba651dd44f29284cf0d4b774713388182bfb4b65
       "BasePath": "_content/LaborSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -432,13 +600,20 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "SourceId": "LaborSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\",
+=======
       "Identity": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "SourceId": "LaborSystem",
       "SourceType": "Discovered",
       "ContentRoot": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/",
+>>>>>>> ba651dd44f29284cf0d4b774713388182bfb4b65
       "BasePath": "_content/LaborSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -451,13 +626,20 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "SourceId": "LaborSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\",
+=======
       "Identity": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "SourceId": "LaborSystem",
       "SourceType": "Discovered",
       "ContentRoot": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/",
+>>>>>>> ba651dd44f29284cf0d4b774713388182bfb4b65
       "BasePath": "_content/LaborSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -470,13 +652,20 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "SourceId": "LaborSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\",
+=======
       "Identity": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "SourceId": "LaborSystem",
       "SourceType": "Discovered",
       "ContentRoot": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/",
+>>>>>>> ba651dd44f29284cf0d4b774713388182bfb4b65
       "BasePath": "_content/LaborSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -489,13 +678,20 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "SourceId": "LaborSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\",
+=======
       "Identity": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "SourceId": "LaborSystem",
       "SourceType": "Discovered",
       "ContentRoot": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/",
+>>>>>>> ba651dd44f29284cf0d4b774713388182bfb4b65
       "BasePath": "_content/LaborSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -508,13 +704,20 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "SourceId": "LaborSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\",
+=======
       "Identity": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "SourceId": "LaborSystem",
       "SourceType": "Discovered",
       "ContentRoot": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/",
+>>>>>>> ba651dd44f29284cf0d4b774713388182bfb4b65
       "BasePath": "_content/LaborSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -527,13 +730,20 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "SourceId": "LaborSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\",
+=======
       "Identity": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "SourceId": "LaborSystem",
       "SourceType": "Discovered",
       "ContentRoot": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/",
+>>>>>>> ba651dd44f29284cf0d4b774713388182bfb4b65
       "BasePath": "_content/LaborSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -546,13 +756,20 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "SourceId": "LaborSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\",
+=======
       "Identity": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "SourceId": "LaborSystem",
       "SourceType": "Discovered",
       "ContentRoot": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/",
+>>>>>>> ba651dd44f29284cf0d4b774713388182bfb4b65
       "BasePath": "_content/LaborSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -565,13 +782,20 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "SourceId": "LaborSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\",
+=======
       "Identity": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
       "SourceId": "LaborSystem",
       "SourceType": "Discovered",
       "ContentRoot": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/",
+>>>>>>> ba651dd44f29284cf0d4b774713388182bfb4b65
       "BasePath": "_content/LaborSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -584,13 +808,20 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "SourceId": "LaborSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\",
+=======
       "Identity": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
       "SourceId": "LaborSystem",
       "SourceType": "Discovered",
       "ContentRoot": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/",
+>>>>>>> ba651dd44f29284cf0d4b774713388182bfb4b65
       "BasePath": "_content/LaborSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -603,13 +834,20 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "SourceId": "LaborSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\",
+=======
       "Identity": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
       "SourceId": "LaborSystem",
       "SourceType": "Discovered",
       "ContentRoot": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/",
+>>>>>>> ba651dd44f29284cf0d4b774713388182bfb4b65
       "BasePath": "_content/LaborSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -622,13 +860,20 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.min.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "SourceId": "LaborSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\",
+=======
       "Identity": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
       "SourceId": "LaborSystem",
       "SourceType": "Discovered",
       "ContentRoot": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/",
+>>>>>>> ba651dd44f29284cf0d4b774713388182bfb4b65
       "BasePath": "_content/LaborSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -641,13 +886,20 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "SourceId": "LaborSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\",
+=======
       "Identity": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
       "SourceId": "LaborSystem",
       "SourceType": "Discovered",
       "ContentRoot": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/",
+>>>>>>> ba651dd44f29284cf0d4b774713388182bfb4b65
       "BasePath": "_content/LaborSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -660,13 +912,20 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "SourceId": "LaborSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\",
+=======
       "Identity": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "SourceId": "LaborSystem",
       "SourceType": "Discovered",
       "ContentRoot": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/",
+>>>>>>> ba651dd44f29284cf0d4b774713388182bfb4b65
       "BasePath": "_content/LaborSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -679,13 +938,20 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "SourceId": "LaborSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\",
+=======
       "Identity": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "SourceId": "LaborSystem",
       "SourceType": "Discovered",
       "ContentRoot": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/",
+>>>>>>> ba651dd44f29284cf0d4b774713388182bfb4b65
       "BasePath": "_content/LaborSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -698,13 +964,20 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "SourceId": "LaborSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\",
+=======
       "Identity": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "SourceId": "LaborSystem",
       "SourceType": "Discovered",
       "ContentRoot": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/",
+>>>>>>> ba651dd44f29284cf0d4b774713388182bfb4b65
       "BasePath": "_content/LaborSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -717,13 +990,20 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "SourceId": "LaborSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\",
+=======
       "Identity": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
       "SourceId": "LaborSystem",
       "SourceType": "Discovered",
       "ContentRoot": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/",
+>>>>>>> ba651dd44f29284cf0d4b774713388182bfb4b65
       "BasePath": "_content/LaborSystem",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -736,13 +1016,20 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "SourceId": "LaborSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\",
+=======
       "Identity": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "SourceId": "LaborSystem",
       "SourceType": "Discovered",
       "ContentRoot": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/",
+>>>>>>> ba651dd44f29284cf0d4b774713388182bfb4b65
       "BasePath": "_content/LaborSystem",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -755,13 +1042,20 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "SourceId": "LaborSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\",
+=======
       "Identity": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "SourceId": "LaborSystem",
       "SourceType": "Discovered",
       "ContentRoot": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/",
+>>>>>>> ba651dd44f29284cf0d4b774713388182bfb4b65
       "BasePath": "_content/LaborSystem",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -774,13 +1068,20 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "SourceId": "LaborSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\",
+=======
       "Identity": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "SourceId": "LaborSystem",
       "SourceType": "Discovered",
       "ContentRoot": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/",
+>>>>>>> ba651dd44f29284cf0d4b774713388182bfb4b65
       "BasePath": "_content/LaborSystem",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -793,13 +1094,20 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "SourceId": "LaborSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\",
+=======
       "Identity": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
       "SourceId": "LaborSystem",
       "SourceType": "Discovered",
       "ContentRoot": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/",
+>>>>>>> ba651dd44f29284cf0d4b774713388182bfb4b65
       "BasePath": "_content/LaborSystem",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -812,13 +1120,20 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "SourceId": "LaborSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\",
+=======
       "Identity": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "SourceId": "LaborSystem",
       "SourceType": "Discovered",
       "ContentRoot": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/",
+>>>>>>> ba651dd44f29284cf0d4b774713388182bfb4b65
       "BasePath": "_content/LaborSystem",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -831,13 +1146,20 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "SourceId": "LaborSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\",
+=======
       "Identity": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "SourceId": "LaborSystem",
       "SourceType": "Discovered",
       "ContentRoot": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/",
+>>>>>>> ba651dd44f29284cf0d4b774713388182bfb4b65
       "BasePath": "_content/LaborSystem",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -850,13 +1172,20 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "SourceId": "LaborSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\",
+=======
       "Identity": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "SourceId": "LaborSystem",
       "SourceType": "Discovered",
       "ContentRoot": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/",
+>>>>>>> ba651dd44f29284cf0d4b774713388182bfb4b65
       "BasePath": "_content/LaborSystem",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -869,13 +1198,20 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "SourceId": "LaborSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\",
+=======
       "Identity": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
       "SourceId": "LaborSystem",
       "SourceType": "Discovered",
       "ContentRoot": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/",
+>>>>>>> ba651dd44f29284cf0d4b774713388182bfb4b65
       "BasePath": "_content/LaborSystem",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -888,13 +1224,20 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.js"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "SourceId": "LaborSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\",
+=======
       "Identity": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
       "SourceId": "LaborSystem",
       "SourceType": "Discovered",
       "ContentRoot": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/",
+>>>>>>> ba651dd44f29284cf0d4b774713388182bfb4b65
       "BasePath": "_content/LaborSystem",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -907,13 +1250,20 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.js.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "SourceId": "LaborSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\",
+=======
       "Identity": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
       "SourceId": "LaborSystem",
       "SourceType": "Discovered",
       "ContentRoot": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/",
+>>>>>>> ba651dd44f29284cf0d4b774713388182bfb4b65
       "BasePath": "_content/LaborSystem",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -926,13 +1276,20 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.min.js"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "SourceId": "LaborSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\",
+=======
       "Identity": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
       "SourceId": "LaborSystem",
       "SourceType": "Discovered",
       "ContentRoot": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/",
+>>>>>>> ba651dd44f29284cf0d4b774713388182bfb4b65
       "BasePath": "_content/LaborSystem",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -945,13 +1302,20 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "SourceId": "LaborSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\",
+=======
       "Identity": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/lib/bootstrap/LICENSE",
       "SourceId": "LaborSystem",
       "SourceType": "Discovered",
       "ContentRoot": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/",
+>>>>>>> ba651dd44f29284cf0d4b774713388182bfb4b65
       "BasePath": "_content/LaborSystem",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -964,13 +1328,20 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/LICENSE"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "SourceId": "LaborSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\",
+=======
       "Identity": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "SourceId": "LaborSystem",
       "SourceType": "Discovered",
       "ContentRoot": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/",
+>>>>>>> ba651dd44f29284cf0d4b774713388182bfb4b65
       "BasePath": "_content/LaborSystem",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -983,13 +1354,20 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "SourceId": "LaborSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\",
+=======
       "Identity": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "SourceId": "LaborSystem",
       "SourceType": "Discovered",
       "ContentRoot": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/",
+>>>>>>> ba651dd44f29284cf0d4b774713388182bfb4b65
       "BasePath": "_content/LaborSystem",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1002,13 +1380,20 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "SourceId": "LaborSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\",
+=======
       "Identity": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
       "SourceId": "LaborSystem",
       "SourceType": "Discovered",
       "ContentRoot": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/",
+>>>>>>> ba651dd44f29284cf0d4b774713388182bfb4b65
       "BasePath": "_content/LaborSystem",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -1021,13 +1406,20 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "SourceId": "LaborSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\",
+=======
       "Identity": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/lib/jquery-validation/dist/additional-methods.js",
       "SourceId": "LaborSystem",
       "SourceType": "Discovered",
       "ContentRoot": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/",
+>>>>>>> ba651dd44f29284cf0d4b774713388182bfb4b65
       "BasePath": "_content/LaborSystem",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -1040,13 +1432,20 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/additional-methods.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "SourceId": "LaborSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\",
+=======
       "Identity": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
       "SourceId": "LaborSystem",
       "SourceType": "Discovered",
       "ContentRoot": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/",
+>>>>>>> ba651dd44f29284cf0d4b774713388182bfb4b65
       "BasePath": "_content/LaborSystem",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -1059,13 +1458,20 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/additional-methods.min.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "SourceId": "LaborSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\",
+=======
       "Identity": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
       "SourceId": "LaborSystem",
       "SourceType": "Discovered",
       "ContentRoot": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/",
+>>>>>>> ba651dd44f29284cf0d4b774713388182bfb4b65
       "BasePath": "_content/LaborSystem",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1078,13 +1484,20 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/jquery.validate.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "SourceId": "LaborSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\",
+=======
       "Identity": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
       "SourceId": "LaborSystem",
       "SourceType": "Discovered",
       "ContentRoot": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/",
+>>>>>>> ba651dd44f29284cf0d4b774713388182bfb4b65
       "BasePath": "_content/LaborSystem",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1097,13 +1510,20 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/jquery.validate.min.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "SourceId": "LaborSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\",
+=======
       "Identity": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/lib/jquery-validation/LICENSE.md",
       "SourceId": "LaborSystem",
       "SourceType": "Discovered",
       "ContentRoot": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/",
+>>>>>>> ba651dd44f29284cf0d4b774713388182bfb4b65
       "BasePath": "_content/LaborSystem",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1116,13 +1536,20 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery-validation/LICENSE.md"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "SourceId": "LaborSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\",
+=======
       "Identity": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/lib/jquery/dist/jquery.js",
       "SourceId": "LaborSystem",
       "SourceType": "Discovered",
       "ContentRoot": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/",
+>>>>>>> ba651dd44f29284cf0d4b774713388182bfb4b65
       "BasePath": "_content/LaborSystem",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -1135,13 +1562,20 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "SourceId": "LaborSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\",
+=======
       "Identity": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/lib/jquery/dist/jquery.min.js",
       "SourceId": "LaborSystem",
       "SourceType": "Discovered",
       "ContentRoot": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/",
+>>>>>>> ba651dd44f29284cf0d4b774713388182bfb4b65
       "BasePath": "_content/LaborSystem",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1154,13 +1588,20 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.min.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "SourceId": "LaborSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\",
+=======
       "Identity": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/lib/jquery/dist/jquery.min.map",
       "SourceId": "LaborSystem",
       "SourceType": "Discovered",
       "ContentRoot": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/",
+>>>>>>> ba651dd44f29284cf0d4b774713388182bfb4b65
       "BasePath": "_content/LaborSystem",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1173,13 +1614,20 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.min.map"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "SourceId": "LaborSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\wwwroot\\",
+=======
       "Identity": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/lib/jquery/LICENSE.txt",
       "SourceId": "LaborSystem",
       "SourceType": "Discovered",
       "ContentRoot": "/home/riwip5-020/Documents/VM3/VM/folder/LaborSystem/wwwroot/",
+>>>>>>> ba651dd44f29284cf0d4b774713388182bfb4b65
       "BasePath": "_content/LaborSystem",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -1192,7 +1640,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery/LICENSE.txt"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     }
   ]
 }
