@@ -1,0 +1,14 @@
+<table>
+    <tr>
+        <td>Id</td>
+        <td>Names</td>
+        <td>LastNames</td>
+    </tr>
+    @foreach( var Item in Model){
+        <tr>
+            <td>@Item.Id</td>
+            <td>@Item.Names</td>
+            <td>@Item.LastNames</td>
+        </tr>
+    }
+</table>
