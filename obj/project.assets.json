@@ -719,24 +719,31 @@
     ]
   },
   "packageFolders": {
-    "/home/riwip5-044/.nuget/packages/": {}
+    "C:\\Users\\WINDOWS 11\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/riwip5-044/Desktop/project/LaborSystem/LaborSystem.csproj",
+      "projectUniqueName": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\LaborSystem.csproj",
       "projectName": "LaborSystem",
-      "projectPath": "/home/riwip5-044/Desktop/project/LaborSystem/LaborSystem.csproj",
-      "packagesPath": "/home/riwip5-044/.nuget/packages/",
-      "outputPath": "/home/riwip5-044/Desktop/project/LaborSystem/obj/",
+      "projectPath": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\LaborSystem.csproj",
+      "packagesPath": "C:\\Users\\WINDOWS 11\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\WINDOWS 11\\Desktop\\LaborSystem\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/home/riwip5-044/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\WINDOWS 11\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -788,7 +795,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/home/riwip5-044/.dotnet/sdk/8.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
