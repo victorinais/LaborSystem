@@ -36,3 +36,41 @@
 /home/riwip5-044/Desktop/project/LaborSystem/obj/Debug/net8.0/LaborSystem.pdb
 /home/riwip5-044/Desktop/project/LaborSystem/obj/Debug/net8.0/LaborSystem.genruntimeconfig.cache
 /home/riwip5-044/Desktop/project/LaborSystem/obj/Debug/net8.0/ref/LaborSystem.dll
+C:\Users\WINDOWS 11\Desktop\LaborSystem\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\WINDOWS 11\Desktop\LaborSystem\bin\Debug\net8.0\appsettings.json
+C:\Users\WINDOWS 11\Desktop\LaborSystem\bin\Debug\net8.0\LaborSystem.staticwebassets.runtime.json
+C:\Users\WINDOWS 11\Desktop\LaborSystem\bin\Debug\net8.0\LaborSystem.exe
+C:\Users\WINDOWS 11\Desktop\LaborSystem\bin\Debug\net8.0\LaborSystem.deps.json
+C:\Users\WINDOWS 11\Desktop\LaborSystem\bin\Debug\net8.0\LaborSystem.runtimeconfig.json
+C:\Users\WINDOWS 11\Desktop\LaborSystem\bin\Debug\net8.0\LaborSystem.dll
+C:\Users\WINDOWS 11\Desktop\LaborSystem\bin\Debug\net8.0\LaborSystem.pdb
+C:\Users\WINDOWS 11\Desktop\LaborSystem\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\WINDOWS 11\Desktop\LaborSystem\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\WINDOWS 11\Desktop\LaborSystem\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\WINDOWS 11\Desktop\LaborSystem\bin\Debug\net8.0\MySqlConnector.dll
+C:\Users\WINDOWS 11\Desktop\LaborSystem\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\WINDOWS 11\Desktop\LaborSystem\obj\Debug\net8.0\LaborSystem.csproj.AssemblyReference.cache
+C:\Users\WINDOWS 11\Desktop\LaborSystem\obj\Debug\net8.0\LaborSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\WINDOWS 11\Desktop\LaborSystem\obj\Debug\net8.0\LaborSystem.AssemblyInfoInputs.cache
+C:\Users\WINDOWS 11\Desktop\LaborSystem\obj\Debug\net8.0\LaborSystem.AssemblyInfo.cs
+C:\Users\WINDOWS 11\Desktop\LaborSystem\obj\Debug\net8.0\LaborSystem.csproj.CoreCompileInputs.cache
+C:\Users\WINDOWS 11\Desktop\LaborSystem\obj\Debug\net8.0\LaborSystem.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\WINDOWS 11\Desktop\LaborSystem\obj\Debug\net8.0\LaborSystem.RazorAssemblyInfo.cache
+C:\Users\WINDOWS 11\Desktop\LaborSystem\obj\Debug\net8.0\LaborSystem.RazorAssemblyInfo.cs
+C:\Users\WINDOWS 11\Desktop\LaborSystem\obj\Debug\net8.0\LaborSystem.sourcelink.json
+C:\Users\WINDOWS 11\Desktop\LaborSystem\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\WINDOWS 11\Desktop\LaborSystem\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\WINDOWS 11\Desktop\LaborSystem\obj\Debug\net8.0\staticwebassets\msbuild.LaborSystem.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\WINDOWS 11\Desktop\LaborSystem\obj\Debug\net8.0\staticwebassets\msbuild.build.LaborSystem.props
+C:\Users\WINDOWS 11\Desktop\LaborSystem\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.LaborSystem.props
+C:\Users\WINDOWS 11\Desktop\LaborSystem\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.LaborSystem.props
+C:\Users\WINDOWS 11\Desktop\LaborSystem\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\WINDOWS 11\Desktop\LaborSystem\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\WINDOWS 11\Desktop\LaborSystem\obj\Debug\net8.0\scopedcss\bundle\LaborSystem.styles.css
+C:\Users\WINDOWS 11\Desktop\LaborSystem\obj\Debug\net8.0\scopedcss\projectbundle\LaborSystem.bundle.scp.css
+C:\Users\WINDOWS 11\Desktop\LaborSystem\obj\Debug\net8.0\LaborSys.770D2B46.Up2Date
+C:\Users\WINDOWS 11\Desktop\LaborSystem\obj\Debug\net8.0\LaborSystem.dll
+C:\Users\WINDOWS 11\Desktop\LaborSystem\obj\Debug\net8.0\refint\LaborSystem.dll
+C:\Users\WINDOWS 11\Desktop\LaborSystem\obj\Debug\net8.0\LaborSystem.pdb
+C:\Users\WINDOWS 11\Desktop\LaborSystem\obj\Debug\net8.0\LaborSystem.genruntimeconfig.cache
+C:\Users\WINDOWS 11\Desktop\LaborSystem\obj\Debug\net8.0\ref\LaborSystem.dll
