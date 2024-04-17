@@ -1,0 +1,54 @@
+@{
+  ViewData["Title"] = "Registros";
+}
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-3">
+      <div class="card my-2">
+        <div class="body-card my-3">
+          <div class="d-flex flex-column">
+            <div class="d-grid col-10 mx-auto mb-2">
+              <a class="btn btn-success btn-md mb-2" asp-controller="Home" asp-action="Index">Home</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-9">
+      <div class="card my-2">
+        <div class="">
+          <p class="h2 text-center mt-3 fw-bold">Bienvenido <span></span></p>
+        </div>
+        <div class="body-card  my-2">
+          <div class="d-flex justify-content-center mt-3">
+            <div class="card col-4 mx-4 my-2">
+              <div class="body-card">
+                <div>
+                  <p class="h5 text-center mt-3 fw-bold">Por favor Presione el boton para registrar su hora de entrada</p>
+                </div>
+                <form action="Create" method="post">
+                  <div class="d-grid col-12  my-3">
+                    <button type="submit" class="btn btn-success btn-lg">Entrada</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div class="card col-4 mx-4 my-2">
+              <div class="body-card">
+                <div>
+                  <p class="h5 text-center mt-3 fw-bold">Por favor Presione el boton para registrar su hora de salida</p>
+                </div>
+                <form action="Create" method="post">
+                  <div class="d-grid col-12 my-3">
+                    <button type="submit" class="btn btn-danger btn-lg">Salida</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
