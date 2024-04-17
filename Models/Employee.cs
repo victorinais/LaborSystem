@@ -1,6 +1,7 @@
 namespace LaborSystem.Models
 {
-    public class Employee{
+    public class Employee
+    {
         public int Id { get; set; }
         public string? Names { get; set;}
         public int IdentificationType_Id { get; set; }
@@ -8,7 +9,6 @@ namespace LaborSystem.Models
         public string? DocumentNumber { get; set; }
         public int PositionType_Id { get; set; }
         public int UserLogin_Id { get; set; }
-
     }
 
 }

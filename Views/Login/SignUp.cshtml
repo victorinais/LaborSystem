@@ -1,62 +1,62 @@
+@model ViewModels.Models.RegistrationViewModel;
 
-@* Titulo de la vista *@
 @{
-    ViewData["Title"] = "Registarse";
+    ViewData["Title"] = "Registrarse";
 }
 
 <!DOCTYPE html>
 <html lang="es">
 <body>
-        <div class="row d-flex justify-content-center">
-        @* Tabla de Botones de navegación *@
-        <div class="col-md-2 col-sm-10 my-3">
-            <div class="card p-2 d-flex justify-content-center d-grid gap-2">
-                <a class="btn btn-primary fw-bold" type="button"  asp-area="" asp-controller="Home" asp-action="Index" asp-route-id="">Atrás</a>
-            </div>
+<div class="row d-flex justify-content-center">
+    <div class="col-md-2 col-sm-10 my-3">
+        <div class="card p-2 d-flex justify-content-center d-grid gap-2">
+            <a class="btn btn-primary fw-bold" asp-area="" asp-controller="Home" asp-action="Index">Atrás</a>
         </div>
-        @* Tabla de Lista *@
-        <div class="col-md-5">
-            <div class=" card p-3">
-                <div class="my-3">
-                    <h1 class="fw-bold text-center">Registrarse</h1>
-                    <p class="card-text text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lacus nunc, accumsan.</p>
-                </div>
-                <form asp-action="Create" method="post">
-                    <div class="row d-flex align-content-center g-3 p-2">
-                        <div class="col-md-12">
-                            <label for="InputNameCompany" class="form-label">Usuario</label>
-                            <input asp-for="Names" id="InputNameCompany" class="form-control" placeholder="Escribe tu usuario" aria-label="Usuario" required>
-                        </div>
-                        <div class="col-md-12">
-                            <label for="InputNameCompany" class="form-label">Usuario</label>
-                            <input asp-for="UserName" id="InputNameCompany" class="form-control" placeholder="Escribe tu usuario" aria-label="Usuario" required>
-                        </div>
-                        <div class="col-md-12">
-                            <label for="InputNameCompany" class="form-label">Usuario</label>
-                            <input asp-for="UserName" id="InputNameCompany" class="form-control" placeholder="Escribe tu usuario" aria-label="Usuario" required>
-                        </div>
-                        <div class="col-md-12">
-                            <label for="InputNameCompany" class="form-label">Usuario</label>
-                            <input asp-for="UserName" id="InputNameCompany" class="form-control" placeholder="Escribe tu usuario" aria-label="Usuario" required>
-                        </div>
-                        <div class="col-md-12">
-                            <label for="InputNameCompany" class="form-label">Usuario</label>
-                            <input asp-for="UserName" id="InputNameCompany" class="form-control" placeholder="Escribe tu usuario" aria-label="Usuario" required>
-                        </div>
-                        <div class="col-md-12">
-                            <label for="InputNameCompany" class="form-label">Usuario</label>
-                            <input asp-for="UserName" id="InputNameCompany" class="form-control" placeholder="Escribe tu usuario" aria-label="Usuario" required>
-                        </div>
-                        
-                        <div class="col-md-12">
-                            <label for="InputLogoCompany" class="form-label">Contraseña</label>
-                            <input asp-for="Password" type="password" id="InputLogoCompany" class="form-control" placeholder="Escribe tu contraseña" aria-label="Contraseña" required>
-                        </div>
-                        <a class="d-grid gap-2 col-6 mx-auto">
-                            <button type="submit" class="btn btn-success fw-bold d-gap">Ingresar</button>
-                        </a>
+    </div>
+    <div class="col-md-5">
+        <div class="card p-3">
+            <div class="my-3">
+                <h1 class="fw-bold text-center">Registrarse</h1>
+                <p class="card-text text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <form asp-action="Create" method="post">
+                <div class="row d-flex align-content-center g-3 p-2">
+                    <div class="col-md-12">
+                        <label for="InputNames" class="form-label">Nombres</label>
+                        <input asp-for="Employee.Names" id="InputNames" class="form-control" placeholder="Escribe tu nombre" required>
+                    </div>
+                    <div class="col-md-12">
+                        <label for="InputLastNames" class="form-label">Apellidos</label>
+                        <input asp-for="Employee.LastNames" id="InputLastNames" class="form-control" placeholder="Escribe tu apellido" required>
+                    </div>
+                    <div class="col-md-12">
+                        <label for="InputIdentification" class="form-label">Tipo de Identificación</label>
+                        <select asp-for="Employee.IdentificationType_Id" asp-items="@Model.Identifications" class="form-select" id="InputIdentification">
+                            <option value="">Selecciona un tipo de identificación</option>
+                        </select>
+                    </div>
+                    <div class="col-md-12">
+                        <label for="InputDocumentNumber" class="form-label">Documento</label>
+                        <input asp-for="Employee.DocumentNumber" id="InputDocumentNumber" class="form-control" placeholder="Escribe tu documento" required>
+                    </div>
+                    <div class="col-md-12">
+                        <label for="InputPositionType_Id" class="form-label">Tipo de Identificación</label>
+                        <select asp-for="Employee.PositionType_Id" asp-items="@Model.Positions" class="form-select" id="InputPositionType_Id">
+                            <option value="">Selecciona un cargo</option>
+                        </select>
+                    <div class="col-md-12">
+                        <label for="InputUserName" class="form-label">Nombre de usuario</label>
+                        <input asp-for="UserLogin.UserName" id="InputUserName" class="form-control" placeholder="Escribe tu nombre de usuario" required>
+                    </div>
+                    <div class="col-md-12">
+                        <label for="InputPassword" class="form-label">Contraseña</label>
+                        <input asp-for="UserLogin.Password" type="password" id="InputPassword" class="form-control" placeholder="Escribe tu contraseña" required>
+                    </div>
+                    <div class="d-grid gap-2 col-6 mx-auto">
+                        <button type="submit" class="btn btn-success fw-bold">Registrar</button>
+                    </div>
                         <div class="container text-center">
-                            ¿No tienes una cuenta? <a asp-area="" asp-controller="Login" asp-action="SignUp">Regístrate gratis</a>
+                            ¿Ya tienes una cuenta? <a asp-area="" asp-controller="Login" asp-action="SignIn">Inicia sesión</a>
                         </div>
                     </div>
                 </form>
