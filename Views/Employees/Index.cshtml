@@ -10,7 +10,6 @@
                     <div class="d-flex flex-column">
                         <div class="d-grid col-10 mx-auto mb-2">
                             <a class="btn btn-success btn-md mb-2" asp-controller="Home" asp-action="Index">Home</a>
-                            <a class="btn btn-primary btn-md mb-2" asp-controller="Employees" asp-action="Index">Listado de Empleados</a>
                         </div>
                     </div>
                 </div>
@@ -18,27 +17,23 @@
         </div>
         <div class="col-md-9">
             <div class="card my-2">
-                <div class="d-flex">
-                    <a class="btn btn-primary btn-md mt-2">Crear Empleado</a>
+                <div class="">
+                    <p class="h2 text-center mt-3 fw-bold">Bienvenido <span></span></p>
                 </div>
                 <div class="body-card my-2">
-                    <div class="table-responsive mx-2">
-                        <table class="table table-bordered border-black">
-                            <tr>
-                                <th>Id</th>
-                                <th>Nombres</th>
-                                <th>Apellidos</th>
-                            </tr>
-                            @foreach (var Item in Model)
-                            {
-                                <tr>
-                                    <td>@Item.Id</td>
-                                    <td>@Item.Names</td>
-                                    <td>@Item.LastNames</td>
-                                </tr>
-                            }
-                        </table>
+                    <div class="d-flex">
+                        <div class="card">
+                            <div class="">
+
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="">
+
+                            </div>
+                        </div>
                     </div>
+                    
                 </div>
             </div>
         </div>
