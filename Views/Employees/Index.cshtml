@@ -9,33 +9,57 @@
                 <div class="body-card my-3">
                     <div class="d-flex flex-column">
                         <div class="d-grid col-10 mx-auto mb-2">
-                            <a class="btn btn-success btn-md mb-2" asp-controller="Home" asp-action="Index">Home</a>
+                            <a class="btn btn-success btn-lg mb-2" asp-controller="Home" asp-action="Index">Home</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="col-md-9">
-            <div class="card my-2">
-                <div class="">
-                    <p class="h2 text-center mt-3 fw-bold">Bienvenido <span></span></p>
-                </div>
-                <div class="body-card my-2">
-                    <div class="d-flex">
-                        <div class="card">
-                            <div class="">
-
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="">
-
-                            </div>
-                        </div>
+            <div class="card mt-3">
+            <div class="mx-2 my-2">
+                <form asp-action="Buscar" method="get">
+                    <div class="d-flex gap-2 mb-2">
+                        <input type="search" class="form-control" name="searchString" placeholder="Buscar...">
+                        <button type="submit" class="btn btn-success btn-lg">Buscar</button>
                     </div>
-                    
+                </form>
+            </div>
+            <div class="body-card">
+                <div class="table-responsive mx-2">
+                    <table class="table table-bordered border-black table-light table-striped table-hover">
+                        <thead>
+                            <tr class="table-dark">
+                                <th>Id</th>
+                                <th>Nombres</th>
+                                <th>Apellido</th>
+                                <th>Cargo</th>
+                                <th>Acciones</th>
+                            </tr>
+                        </thead>
+                        @foreach (var Item in Model)
+                        {
+                            <tr class="">
+                                <td>@Item.Id</td>
+                                <td>@Item.Names</td>
+                                <td>@Item.LastNames</td>
+                                    <td>@Item.PositionType_Id</td>
+                                <td>
+                                    <div class="d-flex gap-1">
+                                        <a class="btn btn-warning btn-sm" asp-controller="Employees" asp-action="Details"
+                                            asp-route-id=@Item.Id>Detalles</a>
+                                        <a class="btn btn-primary btn-sm" asp-controller="Employees" asp-action="Edit"
+                                            asp-route-id=@Item.Id>Editar</a>
+                                        <a class="btn btn-danger btn-sm" asp-controller="Employees" asp-action="Delete"
+                                            asp-route-id=@Item.Id>Eliminar</a>
+                                    </div>
+                                </td>
+                            </tr>
+                        }
+                    </table>
                 </div>
             </div>
+        </div>
         </div>
     </div>
 </div>
