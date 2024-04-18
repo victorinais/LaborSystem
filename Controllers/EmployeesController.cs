@@ -1,7 +1,6 @@
 using LaborSystem.Data;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using LaborSystem.Models;
 
 namespace LaborSystem.Controllers;
 public class EmployeesController : Controller {
