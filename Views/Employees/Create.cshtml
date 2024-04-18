@@ -1,0 +1,65 @@
+@model ViewModels.Models.RegistrationViewModel;
+
+@{
+    ViewData["Title"] = "Registrarse";
+}
+
+<!DOCTYPE html>
+<html lang="es">
+<body>
+<div class="my-3">
+    <h1 class="fw-bold text-center text-primary">Registrarse</h1>
+    <p class="card-text text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+</div>
+<div class="row d-flex justify-content-center">
+    <div class="col-md-5">
+        <div class="card p-3">
+            <div class="my-3">
+                <h4 class="fw-bold text-center text-primary">Datos Personales</h4>
+            </div>
+                <form asp-action="SignUp" method="post">
+                <div class="row d-flex align-content-center g-3 p-2">
+                    <div class="col-md-12">
+                        <label for="InputNames" class="form-label">Nombres</label>
+                        <input asp-for="Employee.Names" id="InputNames" class="form-control" placeholder="Escribe tu nombre" required>
+                    </div>
+                    <div class="col-md-12">
+                        <label for="InputLastNames" class="form-label">Apellidos</label>
+                        <input asp-for="Employee.LastNames" id="InputLastNames" class="form-control" placeholder="Escribe tu apellido" required>
+                    </div>
+                    <div class="col-md-12">
+                        <label for="InputIdentification" class="form-label">Tipo de Identificación</label>
+                        <select asp-for="Employee.IdentificationType_Id" asp-items="@Model.Identifications" class="form-select" id="InputIdentification" required>
+                            <option value="">Selecciona un tipo de identificación</option>
+                        </select>
+                    </div>
+                    <div class="col-md-12">
+                        <label for="InputDocumentNumber" class="form-label">Documento</label>
+                        <input asp-for="Employee.DocumentNumber" id="InputDocumentNumber" class="form-control" placeholder="Escribe tu documento" required>
+                    </div>
+                    <div class="col-md-12">
+                        <label for="InputPositionType_Id" class="form-label">Tipo de Identificación</label>
+                        <select asp-for="Employee.PositionType_Id" asp-items="@Model.Positions" class="form-select" id="InputPositionType_Id" required>
+                            <option value="">Selecciona un cargo</option>
+                        </select>
+                    <div class="col-md-12">
+                        <label for="InputUserName" class="form-label">Nombre de usuario</label>
+                        <input asp-for="UserLogin.UserName" id="InputUserName" class="form-control" placeholder="Escribe tu nombre de usuario" required>
+                    </div>
+                    <div class="col-md-12">
+                        <label for="InputPassword" class="form-label">Contraseña</label>
+                        <input asp-for="UserLogin.Password" type="password" id="InputPassword" class="form-control" placeholder="Escribe tu contraseña" required>
+                    </div>
+                    <div class="d-grid gap-2 col-6 mx-auto m-2">
+                        <button type="submit" class="btn btn-success fw-bold">Registrarse</button>
+                    </div>
+                        <div class="container text-center">
+                            ¿Ya tienes una cuenta? <a asp-area="" asp-controller="Login" asp-action="SignIn">Inicia sesión</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
