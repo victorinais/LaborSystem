@@ -1,0 +1,59 @@
+@model ViewModels.Models.RegistrationViewModel;
+@{
+    ViewData["Title"] = "Detalles";
+}
+
+<div class="container">
+    <p class="h2 text-center mt-5 mb-3 fw-bold">Detalles Empleado</p>
+    <div class="row">
+        <div class="col-md-3">
+            <div class="card mt-3">
+                <div class="body-card">
+                    <div class="d-flex flex-column mt-5">
+                        <div class="d-grid col-10 mx-auto mb-3">
+                            <a class="btn btn-success btn-lg mb-2" asp-controller="Home" asp-action="Index">Home</a>
+                        </div>
+                        <div class="d-grid col-10 mx-auto mb-3">
+                            <a class="btn btn-success btn-lg" asp-controller="" asp-action="">Listado de
+                                Empleados</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-9">
+            <div class="card mt-3">
+                <div class="body-card">
+                    <div class="row">
+                        <div class="mx-5">
+                            <div class="table-responsive">
+                                <table class="table table-light">
+                                    <thead>
+                                        <tr class="align-middle">
+                                            <th>Id</th>
+                                            <th>Nombres</th>
+                                            <th>Apellidos</th>
+                                            <th>Tipo de documento</th>
+                                            <th>Numero de documento</th>
+                                            <th>Cargo</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>@Model.Employee.Id</td>
+                                            <td>@Model.Employee.Names</td>
+                                            <td>@Model.Employee.LastNames</td>
+                                            <td>@Model.Employee.IdentificationType_Id</td>
+                                            <td>@Model.Employee.DocumentNumber</td>
+                                            <td>@Model.Employee.PositionType_Id</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
