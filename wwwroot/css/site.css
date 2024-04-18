@@ -19,6 +19,7 @@ html {
 
 body {
   margin-bottom: 60px;
+  background-color: #FAFAFA;
 }
 
 /* Clases para las imagenes */
@@ -29,9 +30,6 @@ body {
   max-height: 300px;
 }
 
-body {
-  background-color: #FAFAFA;
-}
 
 /* Clases para las cards */
 
