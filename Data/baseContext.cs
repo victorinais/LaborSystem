@@ -13,4 +13,5 @@ public class BaseContext : DbContext
     public DbSet<UserLogin> UserLogins { get; set; }
     public DbSet<IdentificationType> Identifications { get; set; }
     public DbSet<PositionsType> Positions { get; set; }
+    public DbSet<Record> Records { get; set; }
 }

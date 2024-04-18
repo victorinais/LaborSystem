@@ -4,6 +4,6 @@ namespace LaborSystem.Models
     {
         public int Id { get; set; }
         public string PositionName { get; set; }
-        public string Department { get; set; }
+        public List<Employee> Employees { get; set; }
     }
 }

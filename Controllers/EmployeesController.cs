@@ -12,5 +12,6 @@ public class EmployeesController : Controller {
     public async Task<IActionResult> Index(){
         return View(await _context.Employees.ToListAsync());
     }
+
 }
 
