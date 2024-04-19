@@ -8,9 +8,9 @@ namespace ViewModels.Models
     public class RegistrationViewModel
     {
         [Required]
-        public UserLogin UserLogin { get; set; }
+        public DataSesion? DataSesion { get; set; }
         [Required]
-        public Employee Employee { get; set; }
+        public Employee? Employee { get; set; }
         public List<SelectListItem> Identifications{ get; set; }
         public List<SelectListItem> Positions{ get; set; }
 

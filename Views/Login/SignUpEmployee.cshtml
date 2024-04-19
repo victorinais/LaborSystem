@@ -14,7 +14,7 @@
 <div class="row d-flex justify-content-center">
     <div class="col-md-5">
         <div class="card p-3">
-                <form asp-action="SignUp" method="post">
+                <form asp-action="SignUpEmployee" method="post">
                     <div class="row d-flex align-content-center g-3 p-2">
                         <div class="col-md-6">
                             <label for="InputNames" class="form-label">Nombres*</label>
@@ -40,18 +40,12 @@
                                 <option value="">Selecciona un rol</option>
                             </select>
                         </div>
-                        <div class="col-md-12">
-                            <label for="InputUserName" class="form-label">Nombre de usuario</label>
-                            <input asp-for="UserLogin.UserName" id="InputUserName" class="form-control" placeholder="Escribe tu nombre de usuario" required>
-                        </div>
-                        <div class="col-md-12">
-                            <label for="InputPassword" class="form-label">Contraseña</label>
-                            <input asp-for="UserLogin.Password" type="password" id="InputPassword" class="form-control" placeholder="Escribe tu contraseña" required>
-                        </div>
-                        </div> 
                         <div class="d-grid gap-2 col-6 mx-auto m-2">
-                            <button type="submit" class="btn btn-success fw-bold">Registrate</button>
+                            <button type="submit" class="btn btn-success fw-bold">Continuar</button>
                         </div>
+            <div class="d-flex justify-content-center mx-4">
+                <a type="button" class="btn btn-outline-primary mx-1" asp-controller="Login" asp-action="SignUpDataSesion">Ingresar</a>
+            </div>
                         <div class="container text-center">
                             <p class="mb-3">
                                 ¿Ya tienes una cuenta? <a class="text-primary" asp-area="" asp-controller="Login" asp-action="SignIn">Inicia sesión</a>

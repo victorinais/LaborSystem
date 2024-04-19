@@ -10,7 +10,7 @@ public class BaseContext : DbContext
     }
     public DbSet<Record> Records { get; set; }
     public DbSet<Employee> Employees { get; set; }
-    public DbSet<UserLogin> UserLogin { get; set; }
+    public DbSet<DataSesion> DataSesions { get; set; }
     public DbSet<IdentificationType> Identifications { get; set; }
     public DbSet<PositionsType> Positions { get; set; }
 }
