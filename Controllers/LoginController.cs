@@ -61,44 +61,45 @@ namespace LoginController.Controllers {
         // Controlador para "CREAR" una nuevo empleado
         //Procesa la peticion   
         [HttpPost]
-        public  IActionResult SignUp(Employee employee)
+        public IActionResult SignEmployee(Employee employee)
         {
             try
             {
-                var lista = new Employee(){
-                    Names  = employee.Names,
+                var lista = new Employee()
+                {
+                    Names = employee.Names,
                     IdentificationType_Id = employee.IdentificationType_Id,
-                    LastNames  = employee.LastNames,
+                    LastNames = employee.LastNames,
                     DocumentNumber = employee.DocumentNumber,
                     PositionType_Id = employee.PositionType_Id,
-
                 };
-                 _context.Employees.Add(lista);
-                 _context.SaveChanges();
-                var user = _context.Employees.FirstOrDefault(x => x.DocumentNumber == employee.DocumentNumber);
-        
-                return RedirectToAction("Chanbonada", "Login", new { Id = user.Id });
+                _context.Employees.Add(lista);
+                _context.SaveChanges();
+
+                // Redirigir al usuario a una acción específica después de guardar los datos
+                return RedirectToAction("SignIn", "Login");
             }
             catch (DbUpdateException ex)
             {
                 ModelState.AddModelError("", "No se puede guardar, revisa los datos introducidos.");
-                return View(employee);
+                return View("SignUp"); 
             }
         }
-        public IActionResult Chanbonada(int Id)
+
+        public IActionResult SignUpUserLogin(UserLogin userLogin)
         {
-           
-            var test = new UserLogin()
+            var List = new UserLogin()
             {
-                UserName = "asdasdsadasd",
-                Password = "pepe",
-                Employee_Id = Id
+                UserName = userLogin.UserName,
+                Password = userLogin.Password,
+                Employee_Id = 82
             };
 
-            _context.UserLogin.Add(test);
+            _context.UserLogin.Add(List);
             _context.SaveChanges();
-            return  RedirectToAction("SignIn", "Login");
-        }
 
+            // Redirigir al usuario a la acción SignIn después de guardar los datos
+            return RedirectToAction("SignIn", "Login");
+        }
     }
 }
