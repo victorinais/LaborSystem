@@ -61,19 +61,43 @@ namespace LoginController.Controllers {
         // Controlador para "CREAR" una nuevo empleado
         //Procesa la peticion   
         [HttpPost]
-        public async Task<IActionResult> SignUp(Employee employee)
+        public  IActionResult SignUp(Employee employee)
         {
             try
             {
-                _context.Employees.Add(employee);
-                await _context.SaveChangesAsync();
-                return RedirectToAction("SignIn", "Login");
+                var lista = new Employee(){
+                    Names  = employee.Names,
+                    IdentificationType_Id = employee.IdentificationType_Id,
+                    LastNames  = employee.LastNames,
+                    DocumentNumber = employee.DocumentNumber,
+                    PositionType_Id = employee.PositionType_Id,
+
+                };
+                 _context.Employees.Add(lista);
+                 _context.SaveChanges();
+                var user = _context.Employees.FirstOrDefault(x => x.DocumentNumber == employee.DocumentNumber);
+        
+                return RedirectToAction("Chanbonada", "Login", new { Id = user.Id });
             }
             catch (DbUpdateException ex)
             {
                 ModelState.AddModelError("", "No se puede guardar, revisa los datos introducidos.");
                 return View(employee);
             }
+        }
+        public IActionResult Chanbonada(int Id)
+        {
+           
+            var test = new UserLogin()
+            {
+                UserName = "asdasdsadasd",
+                Password = "pepe",
+                Employee_Id = Id
+            };
+
+            _context.UserLogin.Add(test);
+            _context.SaveChanges();
+            return  RedirectToAction("SignIn", "Login");
         }
 
     }
