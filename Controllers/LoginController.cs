@@ -13,12 +13,12 @@ namespace LoginController.Controllers {
             _context = context;
         }
 
-        // Muestra la vista SignUpEmployee y carga los modelos necesarios
-        public IActionResult SignUpEmployee() {
+        // Muestra la vista SignUpUser y carga los modelos necesarios
+        public IActionResult SignUpUser() {
             var model = new RegistrationViewModel {
                 Identifications = GetIdentifications(),
                 Positions = GetPositions(),
-                Employee = new Employee(),
+                User = new User(),
                 DataSesion = new DataSesion()
             };
             return View(model);
@@ -32,47 +32,25 @@ namespace LoginController.Controllers {
 
         // Procesa la creación de un nuevo usuario
         [HttpPost]
-        public IActionResult SignUpEmployee(RegistrationViewModel model) {
+        public async Task<IActionResult> SignUpUser(RegistrationViewModel model) {
             if (!ModelState.IsValid) {
                 model.Identifications = GetIdentifications();
                 model.Positions = GetPositions();
                 return View(model);
             }
-
             try {
-                _context.Employees.Add(model.Employee);
-                _context.SaveChanges();
-
-                // Asignar el ID del empleado recién creado al modelo DataSesion
-                model.DataSesion.Employee_Id = model.Employee.Id;
-                _context.DataSesions.Add(model.DataSesion);
-                _context.SaveChanges();
-
-                return RedirectToAction("SignUpDataSesion", "Login", new { id = model.Employee.Id});
-
+                model.User.DateCreate = DateTime.Now;
+                await _context.Users.AddAsync(model.User);
+                await _context.SaveChangesAsync();
+                
+                model.DataSesion.User_Id = model.User.Id;
+                await _context.DataSesions.AddAsync(model.DataSesion);
+                await _context.SaveChangesAsync();
+                return Json(model.DataSesion);
 
             } catch (DbUpdateException ex) {
                 ModelState.AddModelError("", "No se puede guardar: " + ex.Message);
                 return View(model);
-            }
-        }
-
-        [HttpGet]
-        public IActionResult SignUpDataSesion(int id) {
-            var model = new DataSesion { Employee_Id = id };
-            return View(model);
-        }
-
-        [HttpPost]
-        public IActionResult SignUpDataSesion(DataSesion DataSesion) {
-            try {
-                _context.DataSesions.Add(DataSesion);
-                _context.SaveChanges();
-
-                return RedirectToAction("SignIn", "Login");
-            } catch (Exception ex) {
-                ModelState.AddModelError("", "Ocurrió un error al registrar el usuario. Por favor, intenta de nuevo.");
-                return View(DataSesion);
             }
         }
 

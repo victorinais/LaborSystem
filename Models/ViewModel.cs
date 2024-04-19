@@ -10,7 +10,7 @@ namespace ViewModels.Models
         [Required]
         public DataSesion? DataSesion { get; set; }
         [Required]
-        public Employee? Employee { get; set; }
+        public User? User { get; set; }
         public List<SelectListItem> Identifications{ get; set; }
         public List<SelectListItem> Positions{ get; set; }
 
