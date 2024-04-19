@@ -17,38 +17,38 @@
             <div class="my-3">
                 <h4 class="fw-bold text-center text-primary">Datos Personales</h4>
             </div>
-                <form asp-action="SignUp" method="post">
+                <form  method="post">
                 <div class="row d-flex align-content-center g-3 p-2">
                     <div class="col-md-12">
                         <label for="InputNames" class="form-label">Nombres</label>
-                        <input asp-for="Employee.Names" id="InputNames" class="form-control" placeholder="Escribe tu nombre" required>
+                        <input asp-for="User.Names" id="InputNames" class="form-control" placeholder="Escribe tu nombre" required>
                     </div>
                     <div class="col-md-12">
                         <label for="InputLastNames" class="form-label">Apellidos</label>
-                        <input asp-for="Employee.LastNames" id="InputLastNames" class="form-control" placeholder="Escribe tu apellido" required>
+                        <input asp-for="User.LastNames" id="InputLastNames" class="form-control" placeholder="Escribe tu apellido" required>
                     </div>
                     <div class="col-md-12">
                         <label for="InputIdentification" class="form-label">Tipo de Identificación</label>
-                        <select asp-for="Employee.IdentificationType_Id" asp-items="@Model.Identifications" class="form-select" id="InputIdentification" required>
+                        <select asp-for="User.IdentificationType_Id" asp-items="@Model.Identifications" class="form-select" id="InputIdentification" required>
                             <option value="">Selecciona un tipo de identificación</option>
                         </select>
                     </div>
                     <div class="col-md-12">
                         <label for="InputDocumentNumber" class="form-label">Documento</label>
-                        <input asp-for="Employee.DocumentNumber" id="InputDocumentNumber" class="form-control" placeholder="Escribe tu documento" required>
+                        <input asp-for="User.DocumentNumber" id="InputDocumentNumber" class="form-control" placeholder="Escribe tu documento" required>
                     </div>
                     <div class="col-md-12">
                         <label for="InputPositionType_Id" class="form-label">Tipo de Identificación</label>
-                        <select asp-for="Employee.PositionType_Id" asp-items="@Model.Positions" class="form-select" id="InputPositionType_Id" required>
+                        <select asp-for="User.PositionType_Id" asp-items="@Model.Positions" class="form-select" id="InputPositionType_Id" required>
                             <option value="">Selecciona un cargo</option>
                         </select>
                     <div class="col-md-12">
                         <label for="InputUserName" class="form-label">Nombre de usuario</label>
-                        <input asp-for="UserLogin.UserName" id="InputUserName" class="form-control" placeholder="Escribe tu nombre de usuario" required>
+                        <input asp-for="DataSesion.UserName" id="InputUserName" class="form-control" placeholder="Escribe tu nombre de usuario" required>
                     </div>
                     <div class="col-md-12">
                         <label for="InputPassword" class="form-label">Contraseña</label>
-                        <input asp-for="UserLogin.Password" type="password" id="InputPassword" class="form-control" placeholder="Escribe tu contraseña" required>
+                        <input asp-for="DataSesion.Password" type="password" id="InputPassword" class="form-control" placeholder="Escribe tu contraseña" required>
                     </div>
                     <div class="d-grid gap-2 col-6 mx-auto m-2">
                         <button type="submit" class="btn btn-success fw-bold">Registrarse</button>

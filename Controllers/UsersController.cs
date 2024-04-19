@@ -8,22 +8,22 @@ using LaborSystem.Data;
 
 
 namespace LaborSystem.Controllers;
-public class EmployeesController : Controller {
+public class UsersController : Controller {
     public readonly BaseContext _context;
-    public EmployeesController(BaseContext context){
+    public UsersController(BaseContext context){
         _context = context;
     }
     //Listar todos los Empleados
     public async Task<IActionResult> Index(){
-        return View(await _context.Employees.ToListAsync());
+        return View(await _context.Users.ToListAsync());
     }
     //Detalles de empleados por Id
     public async Task<IActionResult> Details(int? id)
     {
-        var employee = await _context.Employees.FirstOrDefaultAsync(e => e.Id == id);
+        var User = await _context.Users.FirstOrDefaultAsync(e => e.Id == id);
         var viewModel = new RegistrationViewModel
         {
-            Employee = employee,
+            User = User,
         };
         return View(viewModel);
     }

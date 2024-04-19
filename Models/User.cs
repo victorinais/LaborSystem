@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace LaborSystem.Models
 {
-    public class Employee
+    public class User
     {
         public int Id { get; set; }
         public string? Names { get; set; }
@@ -15,5 +15,6 @@ namespace LaborSystem.Models
         public int PositionType_Id { get; set; }
         [ForeignKey("PositionType_Id")]
         public PositionsType PositionType { get; set; }
+        public DateTime DateCreate { get; set; }
     }
 }
